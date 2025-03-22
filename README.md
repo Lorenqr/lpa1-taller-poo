@@ -22,9 +22,9 @@ Este proyecto es un taller práctico para aplicar los conceptos de Programación
 8.  Agregar una función para serializar y deserializar los objetos de los muebles en formato JSON.
 9.  Agregar una interfaz de linea de comandos para interactuar con la muebleria.
 
-## Autor
+## LORENA QUIÑONES RODRIGUEZ
 
-[@tu_cuenta_github]
+[@Lorenqr]
 
 ## Buenas Prácticas y Workflow Moderno * **Código Limpio**: 
 * Fomentar el uso de nombres descriptivos, comentarios claros y una estructura de código coherente.
