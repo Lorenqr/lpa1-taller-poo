@@ -14,3 +14,8 @@ class Mueble(ABC):
 
     def __str__(self):
         return f"{self.__class__.__name__} - Modelo: {self.modelo}, Material: {self.material}, Precio: ${self.precio:.2f}"
+    
+    
+class Mueble(ABC):
+    def aplicar_descuento(self, descuento):
+        self.precio *= (1 - descuento / 100)
