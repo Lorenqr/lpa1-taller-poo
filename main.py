@@ -13,7 +13,7 @@ mesa = Mesa("vidrio", 120.0, "redonda")
 armario = Armario("metal", 300.0, 4)
 
 # Crear una tabla para mostrar la información
-table = Table(title="Información de Muebles", show_header=True, header_style="bold magenta")
+table = Table(title="Información de Muebles", show_header=True, header_style="white")
 table.add_column("Mueble", style="cyan")
 table.add_column("Material", style="green")
 table.add_column("Precio Base", style="yellow")
