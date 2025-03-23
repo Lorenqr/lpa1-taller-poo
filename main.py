@@ -8,9 +8,9 @@ from muebleria.armario import Armario
 
 console = Console()
 
-silla = Silla("madera", 50.0, True)
-mesa = Mesa("vidrio", 120.0, "redonda")
-armario = Armario("metal", 300.0, 4)
+silla = Silla("madera", 50.0)
+mesa = Mesa("vidrio", 120.0)
+armario = Armario("metal", 300.0)
 
 # Crear una tabla para mostrar la información
 table = Table(title="Información de Muebles", show_header=True, header_style="white")
