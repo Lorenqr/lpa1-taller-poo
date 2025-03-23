@@ -16,7 +16,7 @@ Este proyecto es un taller práctico para aplicar los conceptos de Programación
 2.  Definir una clase abstracta `Mueble` con atributos comunes (por ejemplo, `material`, `precio`) y métodos abstractos (por ejemplo, `calcular_precio_final()`). Utilizar el módulo `abc` de Python para definir clases abstractas y métodos abstractos.
 3.  Crear subclases como `Silla`, `Mesa` y `Armario` que hereden de la clase `Mueble`. Implementar los métodos abstractos y agregar atributos específicos de cada tipo de mueble.
 4.  En el programa principal (`main.py`) instanciar objetos de las subclases y probar sus métodos. Mostrar información de los muebles (atributos y precios) utilizando `Rich`.
-5.  Utilizar `pytest` para escribir pruebas unitarias que verifiquen el comportamiento de las clases. Probar con al menos 3 diferentes escenarios y casos de borde.
+5.  .Utilizar `pytest` para escribir pruebas unitarias que verifiquen el comportamiento de las clases. Probar con al menos 3 diferentes escenarios y casos de borde
 6.  Agregar la capacidad de aplicar descuentos a los muebles.
 7.  Agregar una clase para gestionar el inventario de la mueblería.
 8.  Agregar una función para serializar y deserializar los objetos de los muebles en formato JSON.

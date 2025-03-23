@@ -1,4 +1,4 @@
-# muebleria/cli.py
+
 import argparse
 from .inventario import Inventario
 from .silla import Silla
