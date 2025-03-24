@@ -5,10 +5,11 @@ from rich.table import Table
 from muebleria.silla import Silla
 from muebleria.mesa import Mesa
 from muebleria.armario import Armario
+from muebleria.inventario import Inventario
 
 console = Console()
 
-silla = Silla("madera", 50.0)
+silla = Silla("madera", 50.0, "rimax")
 mesa = Mesa("vidrio", 120.0)
 armario = Armario("metal", 300.0)
 
@@ -26,3 +27,24 @@ table.add_row("Armario", armario.material, f"${armario.precio:.2f}", f"${armario
 
 # Mostrar la tabla
 console.print(table)
+
+#control de inventario
+console.print("Se agregaran los materiales al inventario")
+inventario = Inventario()
+inventario.agregar_mueble(silla)
+inventario.agregar_mueble(mesa)
+inventario.agregar_mueble(armario)
+
+console.print("Mostrar los materiales agregados")
+inventario.mostrar_inventario()
+
+console.print("Se elimina materiales para armario")
+inventario.eliminar_mueble(armario)
+
+console.print("Mostrar los materiales existentes")
+inventario.mostrar_inventario()
+
+#Serializador de json
+json_silla = silla.to_json()
+print("Silla serializada a JSON")
+print(json_silla)

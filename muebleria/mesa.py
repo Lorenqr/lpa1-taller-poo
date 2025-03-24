@@ -1,5 +1,5 @@
 # muebleria/mesa.py
-from .mueble import Mueble
+from muebleria.mueble import Mueble
 
 class Mesa(Mueble):
     def __init__(self, material, precio):

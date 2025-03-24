@@ -5,7 +5,7 @@ from muebleria.mesa import Mesa
 from muebleria.armario import Armario
 
 def test_silla_precio_final():
-    silla = Silla("madera", 50.0)
+    silla = Silla("madera", 50.0, "banco")
     assert silla.calcular_precio_final() == 50.0
 
 def test_mesa_precio_final():

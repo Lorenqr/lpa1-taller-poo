@@ -1,5 +1,5 @@
 # muebleria/armario.py
-from .mueble import Mueble
+from muebleria.mueble import Mueble
 
 class Armario(Mueble):
     def __init__(self, material, precio):
@@ -7,3 +7,4 @@ class Armario(Mueble):
 
     def calcular_precio_final(self):
         return self.precio
+    
